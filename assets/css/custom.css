@@ -1,0 +1,92 @@
+/* Custom Styles for Dark Mode and Branding */
+body {
+    background-color: #292102;
+    color: #f9d857;
+}
+
+header, footer {
+    background-color: #5f5633;
+}
+
+.navbar {
+    border-radius: 0.5rem;
+    background-color: #5f5633;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f9d857;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #b0afad;
+}
+
+/* Info Sections */
+.info {
+    background-color: #292102;
+    color: #f9d857;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #f9d857;
+    border-color: #f9d857;
+}
+
+.btn-primary:hover {
+    background-color: #b0afad;
+    border-color: #b0afad;
+}
+
+/* Alerts */
+.alert-danger {
+    background-color: #b0afad;
+    color: #292102;
+}
+
+/* Dropdown Menu */
+.navbar-nav .dropdown-menu {
+    background-color: #5f5633;
+    border: none;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #f9d857;
+}
+
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #292102;
+    color: #f9d857;
+}
+
+/* Avatar Images */
+img.rounded-circle {
+    border: 2px solid #f9d857;
+}
+
+/* Cards and List Items */
+.card, .list-group-item {
+    background-color: #3e3a2c;
+    color: #f9d857;
+}
+
+.card-title, .list-group-item {
+    color: #f9d857;
+}
+
+/* Alerts */
+.alert {
+    background-color: #b0afad;
+    color: #292102;
+}
+
+/* Form Elements */
+.form-control, .form-control:focus {
+    background-color: #3e3a2c;
+    color: #f9d857;
+    border: 1px solid #5f5633;
+}
+
+.form-control::placeholder {
+    color: #b0afad;
+}
